@@ -11,7 +11,6 @@ Since the database for this project is meant to have an optimal performance for 
 
 The dimension tables defined for the schema are the attributes that the analytics team is interested to understand in user activity: the actual users, the songs listened to by the users, the artists of those songs, and the time identifying when the songs started to be listened to. The fact table was defined to be the actual songplays registered by the app.
 
-# Data Model
 
 # Creating the database
 The creation of the database tables and ETL processes for each table were developed in Python scripts.
