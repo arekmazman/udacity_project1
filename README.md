@@ -30,3 +30,6 @@ The ETL processes are defined in the file etl.py. This script contains a number 
 
 In order to import the JSON files data into the database,run etl.py .
 The output of that script shows how many files were processed. Run test.ipynb to confirm the records were successfully inserted into each table.
+
+# How to Run
+create_tables.py from the terminal is needed to be run to able to create the sparkifydb database and tables. Afterwards, to run test.ipynb to be performed to confirm the creation of your tables with the correct columns. We also need to run etl.ipynb from the terminal so we can read all files from song_data and log_data into tables. We need to run test.ipynb to confirm your records were successfully inserted into each table, at last.
